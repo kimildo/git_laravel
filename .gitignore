@@ -7,3 +7,6 @@
 Homestead.json
 Homestead.yaml
 .env
+.settings/org.eclipse.wst.validation.prefs
+.buildpath
+.project
