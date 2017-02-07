@@ -12,6 +12,11 @@
      */
     trigger_error('add-master');
 
+    /**
+     * after merge add another
+     */
+    trigger_error('add-master');
+
 
 	
 	
