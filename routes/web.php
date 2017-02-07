@@ -11,17 +11,18 @@
     |
     */
 
-    Route::get('/', function () {
+    /*Route::get('/', function () {
         return view('welcome');
     });
 
     Route::get('/home', function () {
         return view('home');
-    });
+    });*/
 
-    trigger_error('1');
-    trigger_error('2');
-    trigger_error('3');
+    trigger_error('master');
+    trigger_error('master');
+    trigger_error('master');
+
 
 	
 	
