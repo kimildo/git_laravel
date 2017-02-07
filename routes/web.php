@@ -12,16 +12,10 @@
 */
 
 Route::get('/', function () {
-    trigger_error(1);
-    trigger_error(2);
-    trigger_error(3);
-	return view('welcome');
+    return view('welcome');
 });
 
 Route::get('/', [
 	'as' => 'root',
 	'uses' => 'WelcomeController@index',
 ]);
-
-
-    trigger_error('nb1');
