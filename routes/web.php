@@ -22,3 +22,6 @@ Route::get('/', [
 	'as' => 'root',
 	'uses' => 'WelcomeController@index',
 ]);
+
+
+    trigger_error('nb1');
