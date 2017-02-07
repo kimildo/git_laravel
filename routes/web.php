@@ -18,5 +18,8 @@ Route::get('/', function () {
 Route::get('/home', function () {
 	return view('home');
 });
+
+trigger_error('master');
+
 	
 	
