@@ -13,8 +13,9 @@
 
 Route::get('/', function () {
     trigger_error(1);
+    trigger_error(2);
+    trigger_error(3);
 	return view('welcome');
-	
 });
 
 Route::get('/', [
