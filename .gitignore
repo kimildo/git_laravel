@@ -10,3 +10,4 @@ Homestead.yaml
 .settings/org.eclipse.wst.validation.prefs
 .buildpath
 .project
+composer.phar
